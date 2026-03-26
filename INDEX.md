@@ -1,6 +1,6 @@
 # Cairn Index
 
-*6 entries — last updated 2026-03-24*
+*7 entries — last updated 2026-03-26*
 
 ---
 
@@ -20,6 +20,11 @@
 |---|---|---|---|
 | [kraken-ohlc-price-staleness](entries/kraken/ohlc-price-staleness.md) | OHLC endpoint returns stale price — use Ticker for live price | medium | timing |
 
+### PubNub
+| ID | Symptom | Severity | Category |
+|---|---|---|---|
+| [pubnub-set-channel-members-uuid-wrapper](entries/pubnub/set-channel-members-uuid-wrapper.md) | set_channel_members() rejects plain string UUIDs — requires wrapper object | medium | schema |
+
 ---
 
 ## By severity
@@ -33,6 +38,7 @@
 - [kalshi-order-price-field-required](entries/kalshi/order-price-field-required.md)
 - [kalshi-market-publish-delay](entries/kalshi/market-publish-delay.md)
 - [kraken-ohlc-price-staleness](entries/kraken/ohlc-price-staleness.md)
+- [pubnub-set-channel-members-uuid-wrapper](entries/pubnub/set-channel-members-uuid-wrapper.md)
 
 ---
 
@@ -43,5 +49,5 @@
 | `authentication` | kalshi-signing-path-prefix |
 | `api-behavior` | kalshi-production-base-url |
 | `data-semantics` | kalshi-fill-cost-sell-semantics |
-| `schema` | kalshi-order-price-field-required |
+| `schema` | kalshi-order-price-field-required, pubnub-set-channel-members-uuid-wrapper |
 | `timing` | kalshi-market-publish-delay, kraken-ohlc-price-staleness |
