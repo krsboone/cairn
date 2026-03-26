@@ -52,6 +52,25 @@ Do not treat unverified entries as authoritative.
 
 ---
 
+## Using with AI
+
+Cairn is designed to be consumed by AI systems as well as humans.
+
+**If you're working with an AI assistant**, paste this at the start of your session:
+
+```
+Read https://raw.githubusercontent.com/krsboone/cairn/main/FOR-AI.md for
+instructions on how to use the Cairn knowledge base, then check
+https://raw.githubusercontent.com/krsboone/cairn/main/INDEX.md for entries
+relevant to the platform or problem you're working on.
+```
+
+**If you're an AI system**, read [`FOR-AI.md`](FOR-AI.md) — it contains
+structured instructions for searching entries, evaluating trust, and
+contributing via pull request.
+
+---
+
 ## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
