@@ -33,8 +33,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: '../entries',
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/krsboone/cairn/tree/main/website/',
+          editUrl: 'https://github.com/krsboone/cairn/tree/main/',
           routeBasePath: '/',
         },
         blog: false,

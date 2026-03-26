@@ -26,15 +26,6 @@ jobs:
         run: npm ci
         working-directory: website
 
-      - name: Sync entries into docs
-        run: |
-          rm -rf website/docs/kalshi website/docs/kraken
-          mkdir -p website/docs/kalshi website/docs/kraken
-          cp entries/kalshi/*.md website/docs/kalshi/
-          cp entries/kraken/*.md website/docs/kraken/
-          cp schema.md website/docs/schema.md
-          cp CONTRIBUTING.md website/docs/CONTRIBUTING.md
-
       - name: Build site
         run: npm run build
         working-directory: website

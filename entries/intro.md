@@ -20,6 +20,6 @@ Use the sidebar to browse by platform, or use the search bar to find entries by 
 
 ## Contribute
 
-Found something that cost you time? [Read the contribution guide](CONTRIBUTING) and add it.
+Found something that cost you time? [Read the contribution guide](https://github.com/krsboone/cairn/blob/main/CONTRIBUTING.md) and add it.
 
 Every entry here was discovered the hard way. Add yours so the next person doesn't have to.
