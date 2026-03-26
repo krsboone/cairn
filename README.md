@@ -52,4 +52,11 @@ Do not treat unverified entries as authoritative.
 
 ---
 
+## License
+
+This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Use it freely. Credit the source.
+
+---
+
 *Started: 2026-03-24. Seeded from Kalshi/Kraken work by Kris and Meridian.*
