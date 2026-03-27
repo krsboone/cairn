@@ -9,6 +9,8 @@ and AI systems working together.
 The goal is simple: problems that cost hours to solve should not cost the next
 person the same hours.
 
+https://krsboone.github.io/cairn/intro
+
 ---
 
 ## What belongs here
